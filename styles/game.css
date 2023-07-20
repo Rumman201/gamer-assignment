@@ -166,7 +166,8 @@
     line-height: 30px;
     margin-bottom: 30px;
 }
-.online-game-item{
+
+.online-game-item {
     margin: 10px 240px 0px 240px;
 }
 
@@ -176,7 +177,7 @@
     margin-top: 15px;
     color: #534C64;
     font-size: 20px;
-     font-weight: 500;
+    font-weight: 500;
     line-height: 30px;
 }
 
@@ -187,5 +188,53 @@
     height: 400px;
     margin-left: 5%;
     border-radius: 15px;
-    
+
+}
+.play-section{
+    margin: 0px 240px 0px 430px;
+}
+
+.instant-play {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 15%;
+}
+
+.play-title {
+    text-align: right;
+    margin-top: 250px;
+    margin-left: 100px;
+}
+
+.play-about {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.Play-Instantly {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.play-description {
+    color: #534C64;
+    text-align: right;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.play-image img{
+    border-radius: 10px;
+}
+.play-image-two{
+    width: 250px;
+    height: 300px;
+    bottom: 200px;
+    margin-right: 140px;
+    position: relative;
 }
