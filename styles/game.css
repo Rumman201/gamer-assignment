@@ -190,7 +190,8 @@
     border-radius: 15px;
 
 }
-.play-section{
+
+.play-section {
     margin: 0px 240px 0px 430px;
 }
 
@@ -228,13 +229,99 @@
     font-weight: 400;
     line-height: 30px;
 }
-.play-image img{
+
+.play-image img {
     border-radius: 10px;
 }
-.play-image-two{
+
+.play-image-two {
     width: 250px;
     height: 300px;
     bottom: 200px;
     margin-right: 140px;
     position: relative;
+}
+
+.game-type {
+    margin: 15px 250px 15px 500px;
+
+
+}
+
+
+.catagory-2,
+.catagory-3,
+.catagory-4,
+.catagory-5,
+.catagory-6,
+.catagory-7,
+.catagory-8,
+.catagory-9,
+.total-catagory,
+.catagory-1 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5px;
+    border-radius: 50px;
+    background: #FFF;
+}
+
+.total-footer {
+    background-color: #0B0223;
+    height: auto;
+    text-align: center;
+    padding: 50px 250px;
+}
+
+.footer-image-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 50px;
+}
+
+.footer-image-title h1 {
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: #FFF;
+    margin-left: 20PX;
+
+}
+.G-color{
+    color: palevioletred;
+}
+.nav-footer > ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-footer li{
+    color: #FFF;
+    list-style: none;
+    margin-left: 30px;
+}
+.footer-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    rotate: 20px;
+    margin-top: 20px;
+
+}
+.condition ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.condition li{
+    list-style: none;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.end-title{
+    color: #FFF;
+    margin-top: 20px;
 }
