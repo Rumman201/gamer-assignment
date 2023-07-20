@@ -262,6 +262,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
     gap: 5px;
     border-radius: 50px;
     background: #FFF;
@@ -324,4 +325,16 @@
 .end-title{
     color: #FFF;
     margin-top: 20px;
+}
+@media screen and (max-width:576px) {
+    .nav ,.icon-title{
+        flex-direction: column;
+    }
+    
+}
+@media screen and (min-width:576px) and (max-width:992px) {
+    .nav ,.icon-title{
+        flex-direction: column;
+    }
+    
 }
